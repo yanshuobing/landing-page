@@ -89,10 +89,19 @@ ul {
 
 .button {
     background: #3882F6;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 10px 25px;
-    align-self: flex-start;
     font-weight: bold;
+    flex-shrink: 0;
+}
+
+.hero__button {
+    align-self: flex-start;
+}
+
+.invitation__button {
+    border: 3px solid #E5E7EB;
+    padding: 7px 22px;
 }
 
 .features {
@@ -158,4 +167,25 @@ ul {
     color: #1F2937;
     align-self: flex-end;
     font-weight: 800;
+}
+
+.invitation {
+    padding: 72px 24px;
+}
+
+.invitation__container {
+    background: #3882F6;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    gap: 12px;
+    max-width: 940px;
+}
+
+.invitation__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px;
 }
