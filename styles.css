@@ -26,7 +26,7 @@ ul {
 
 .container {
     margin: 0 auto;
-    padding: 12px;
+    padding: 20px 30px;
     max-width: 1000px;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ ul {
 
 .header__list {
     display: flex;
-    gap: 12px
+    gap: 12px;
 }
 
 .hero__container {
@@ -114,6 +114,8 @@ ul {
 
 .features__cards {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
 }
 
@@ -130,4 +132,30 @@ ul {
     border-radius: 8px;
     height: 180px;
     margin-bottom: 10px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+}
+
+.testimonial__container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 84px;
+    padding-bottom: 64px;
+    max-width: 795px;
+}
+
+.testimonial__quote {
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.testimonial__author {
+    color: #1F2937;
+    align-self: flex-end;
+    font-weight: 800;
 }
